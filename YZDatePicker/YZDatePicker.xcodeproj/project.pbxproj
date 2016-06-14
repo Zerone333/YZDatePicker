@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B80608D1D0E52D700DC2271 /* YZDateTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B80608C1D0E52D700DC2271 /* YZDateTimePickerView.m */; };
+		9BCC8A321D0D94A200339CA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC8A311D0D94A200339CA4 /* main.m */; };
+		9BCC8A351D0D94A200339CA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC8A341D0D94A200339CA4 /* AppDelegate.m */; };
+		9BCC8A381D0D94A200339CA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC8A371D0D94A200339CA4 /* ViewController.m */; };
+		9BCC8A3B1D0D94A300339CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCC8A391D0D94A200339CA4 /* Main.storyboard */; };
+		9BCC8A3D1D0D94A300339CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCC8A3C1D0D94A300339CA4 /* Assets.xcassets */; };
+		9BCC8A401D0D94A300339CA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCC8A3E1D0D94A300339CA4 /* LaunchScreen.storyboard */; };
+		9BCC8A4B1D0D94A300339CA4 /* YZDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC8A4A1D0D94A300339CA4 /* YZDatePickerTests.m */; };
+		9BCC8A561D0D94A300339CA4 /* YZDatePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC8A551D0D94A300339CA4 /* YZDatePickerUITests.m */; };
+		9BCC8A661D0D94CD00339CA4 /* YZDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC8A651D0D94CD00339CA4 /* YZDatePicker.m */; };
+		9BCC8A691D0D94FC00339CA4 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC8A681D0D94FC00339CA4 /* NSDate+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BCC8A471D0D94A300339CA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BCC8A251D0D94A200339CA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BCC8A2C1D0D94A200339CA4;
+			remoteInfo = YZDatePicker;
+		};
+		9BCC8A521D0D94A300339CA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BCC8A251D0D94A200339CA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BCC8A2C1D0D94A200339CA4;
+			remoteInfo = YZDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B80608B1D0E52D700DC2271 /* YZDateTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDateTimePickerView.h; sourceTree = "<group>"; };
+		9B80608C1D0E52D700DC2271 /* YZDateTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDateTimePickerView.m; sourceTree = "<group>"; };
+		9BCC8A2D1D0D94A200339CA4 /* YZDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCC8A311D0D94A200339CA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BCC8A331D0D94A200339CA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BCC8A341D0D94A200339CA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BCC8A361D0D94A200339CA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9BCC8A371D0D94A200339CA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9BCC8A3A1D0D94A200339CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BCC8A3C1D0D94A300339CA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BCC8A3F1D0D94A300339CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BCC8A411D0D94A300339CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BCC8A461D0D94A300339CA4 /* YZDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCC8A4A1D0D94A300339CA4 /* YZDatePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZDatePickerTests.m; sourceTree = "<group>"; };
+		9BCC8A4C1D0D94A300339CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BCC8A511D0D94A300339CA4 /* YZDatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZDatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCC8A551D0D94A300339CA4 /* YZDatePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZDatePickerUITests.m; sourceTree = "<group>"; };
+		9BCC8A571D0D94A300339CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BCC8A641D0D94CD00339CA4 /* YZDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDatePicker.h; sourceTree = "<group>"; };
+		9BCC8A651D0D94CD00339CA4 /* YZDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDatePicker.m; sourceTree = "<group>"; };
+		9BCC8A671D0D94FC00339CA4 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		9BCC8A681D0D94FC00339CA4 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BCC8A2A1D0D94A200339CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCC8A431D0D94A300339CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCC8A4E1D0D94A300339CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BCC8A241D0D94A200339CA4 = {
+			isa = PBXGroup;
+			children = (
+				9BCC8A2F1D0D94A200339CA4 /* YZDatePicker */,
+				9BCC8A491D0D94A300339CA4 /* YZDatePickerTests */,
+				9BCC8A541D0D94A300339CA4 /* YZDatePickerUITests */,
+				9BCC8A2E1D0D94A200339CA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BCC8A2E1D0D94A200339CA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC8A2D1D0D94A200339CA4 /* YZDatePicker.app */,
+				9BCC8A461D0D94A300339CA4 /* YZDatePickerTests.xctest */,
+				9BCC8A511D0D94A300339CA4 /* YZDatePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BCC8A2F1D0D94A200339CA4 /* YZDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC8A631D0D94C200339CA4 /* YZDatePicker */,
+				9BCC8A331D0D94A200339CA4 /* AppDelegate.h */,
+				9BCC8A341D0D94A200339CA4 /* AppDelegate.m */,
+				9BCC8A361D0D94A200339CA4 /* ViewController.h */,
+				9BCC8A371D0D94A200339CA4 /* ViewController.m */,
+				9BCC8A391D0D94A200339CA4 /* Main.storyboard */,
+				9BCC8A3C1D0D94A300339CA4 /* Assets.xcassets */,
+				9BCC8A3E1D0D94A300339CA4 /* LaunchScreen.storyboard */,
+				9BCC8A411D0D94A300339CA4 /* Info.plist */,
+				9BCC8A301D0D94A200339CA4 /* Supporting Files */,
+			);
+			path = YZDatePicker;
+			sourceTree = "<group>";
+		};
+		9BCC8A301D0D94A200339CA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC8A311D0D94A200339CA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BCC8A491D0D94A300339CA4 /* YZDatePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC8A4A1D0D94A300339CA4 /* YZDatePickerTests.m */,
+				9BCC8A4C1D0D94A300339CA4 /* Info.plist */,
+			);
+			path = YZDatePickerTests;
+			sourceTree = "<group>";
+		};
+		9BCC8A541D0D94A300339CA4 /* YZDatePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC8A551D0D94A300339CA4 /* YZDatePickerUITests.m */,
+				9BCC8A571D0D94A300339CA4 /* Info.plist */,
+			);
+			path = YZDatePickerUITests;
+			sourceTree = "<group>";
+		};
+		9BCC8A631D0D94C200339CA4 /* YZDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				9B80608B1D0E52D700DC2271 /* YZDateTimePickerView.h */,
+				9B80608C1D0E52D700DC2271 /* YZDateTimePickerView.m */,
+				9BCC8A671D0D94FC00339CA4 /* NSDate+Extension.h */,
+				9BCC8A681D0D94FC00339CA4 /* NSDate+Extension.m */,
+				9BCC8A641D0D94CD00339CA4 /* YZDatePicker.h */,
+				9BCC8A651D0D94CD00339CA4 /* YZDatePicker.m */,
+			);
+			path = YZDatePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BCC8A2C1D0D94A200339CA4 /* YZDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BCC8A5A1D0D94A300339CA4 /* Build configuration list for PBXNativeTarget "YZDatePicker" */;
+			buildPhases = (
+				9BCC8A291D0D94A200339CA4 /* Sources */,
+				9BCC8A2A1D0D94A200339CA4 /* Frameworks */,
+				9BCC8A2B1D0D94A200339CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZDatePicker;
+			productName = YZDatePicker;
+			productReference = 9BCC8A2D1D0D94A200339CA4 /* YZDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BCC8A451D0D94A300339CA4 /* YZDatePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BCC8A5D1D0D94A300339CA4 /* Build configuration list for PBXNativeTarget "YZDatePickerTests" */;
+			buildPhases = (
+				9BCC8A421D0D94A300339CA4 /* Sources */,
+				9BCC8A431D0D94A300339CA4 /* Frameworks */,
+				9BCC8A441D0D94A300339CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BCC8A481D0D94A300339CA4 /* PBXTargetDependency */,
+			);
+			name = YZDatePickerTests;
+			productName = YZDatePickerTests;
+			productReference = 9BCC8A461D0D94A300339CA4 /* YZDatePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BCC8A501D0D94A300339CA4 /* YZDatePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BCC8A601D0D94A300339CA4 /* Build configuration list for PBXNativeTarget "YZDatePickerUITests" */;
+			buildPhases = (
+				9BCC8A4D1D0D94A300339CA4 /* Sources */,
+				9BCC8A4E1D0D94A300339CA4 /* Frameworks */,
+				9BCC8A4F1D0D94A300339CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BCC8A531D0D94A300339CA4 /* PBXTargetDependency */,
+			);
+			name = YZDatePickerUITests;
+			productName = YZDatePickerUITests;
+			productReference = 9BCC8A511D0D94A300339CA4 /* YZDatePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BCC8A251D0D94A200339CA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "李艺真";
+				TargetAttributes = {
+					9BCC8A2C1D0D94A200339CA4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9BCC8A451D0D94A300339CA4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9BCC8A2C1D0D94A200339CA4;
+					};
+					9BCC8A501D0D94A300339CA4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9BCC8A2C1D0D94A200339CA4;
+					};
+				};
+			};
+			buildConfigurationList = 9BCC8A281D0D94A200339CA4 /* Build configuration list for PBXProject "YZDatePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BCC8A241D0D94A200339CA4;
+			productRefGroup = 9BCC8A2E1D0D94A200339CA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BCC8A2C1D0D94A200339CA4 /* YZDatePicker */,
+				9BCC8A451D0D94A300339CA4 /* YZDatePickerTests */,
+				9BCC8A501D0D94A300339CA4 /* YZDatePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BCC8A2B1D0D94A200339CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCC8A401D0D94A300339CA4 /* LaunchScreen.storyboard in Resources */,
+				9BCC8A3D1D0D94A300339CA4 /* Assets.xcassets in Resources */,
+				9BCC8A3B1D0D94A300339CA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCC8A441D0D94A300339CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCC8A4F1D0D94A300339CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BCC8A291D0D94A200339CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B80608D1D0E52D700DC2271 /* YZDateTimePickerView.m in Sources */,
+				9BCC8A661D0D94CD00339CA4 /* YZDatePicker.m in Sources */,
+				9BCC8A691D0D94FC00339CA4 /* NSDate+Extension.m in Sources */,
+				9BCC8A381D0D94A200339CA4 /* ViewController.m in Sources */,
+				9BCC8A351D0D94A200339CA4 /* AppDelegate.m in Sources */,
+				9BCC8A321D0D94A200339CA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCC8A421D0D94A300339CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCC8A4B1D0D94A300339CA4 /* YZDatePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCC8A4D1D0D94A300339CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCC8A561D0D94A300339CA4 /* YZDatePickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BCC8A481D0D94A300339CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BCC8A2C1D0D94A200339CA4 /* YZDatePicker */;
+			targetProxy = 9BCC8A471D0D94A300339CA4 /* PBXContainerItemProxy */;
+		};
+		9BCC8A531D0D94A300339CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BCC8A2C1D0D94A200339CA4 /* YZDatePicker */;
+			targetProxy = 9BCC8A521D0D94A300339CA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BCC8A391D0D94A200339CA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCC8A3A1D0D94A200339CA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BCC8A3E1D0D94A300339CA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCC8A3F1D0D94A300339CA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BCC8A581D0D94A300339CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BCC8A591D0D94A300339CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BCC8A5B1D0D94A300339CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lee.YZDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9BCC8A5C1D0D94A300339CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lee.YZDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9BCC8A5E1D0D94A300339CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YZDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lee.YZDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZDatePicker.app/YZDatePicker";
+			};
+			name = Debug;
+		};
+		9BCC8A5F1D0D94A300339CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YZDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lee.YZDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZDatePicker.app/YZDatePicker";
+			};
+			name = Release;
+		};
+		9BCC8A611D0D94A300339CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YZDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lee.YZDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YZDatePicker;
+			};
+			name = Debug;
+		};
+		9BCC8A621D0D94A300339CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YZDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lee.YZDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YZDatePicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BCC8A281D0D94A200339CA4 /* Build configuration list for PBXProject "YZDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCC8A581D0D94A300339CA4 /* Debug */,
+				9BCC8A591D0D94A300339CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BCC8A5A1D0D94A300339CA4 /* Build configuration list for PBXNativeTarget "YZDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCC8A5B1D0D94A300339CA4 /* Debug */,
+				9BCC8A5C1D0D94A300339CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BCC8A5D1D0D94A300339CA4 /* Build configuration list for PBXNativeTarget "YZDatePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCC8A5E1D0D94A300339CA4 /* Debug */,
+				9BCC8A5F1D0D94A300339CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BCC8A601D0D94A300339CA4 /* Build configuration list for PBXNativeTarget "YZDatePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCC8A611D0D94A300339CA4 /* Debug */,
+				9BCC8A621D0D94A300339CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BCC8A251D0D94A200339CA4 /* Project object */;
+}
